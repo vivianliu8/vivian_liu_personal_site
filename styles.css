@@ -1,0 +1,142 @@
+div{
+  background-color: #FFF9F9;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: Sacramento, sans-serif;
+  font-size: 5rem;
+  color:#7267CB;
+  line-height:2;
+}
+
+h2{
+  font-family: Unica One,sans-serif;
+  color: #7267CB;
+  font-weight:normal;
+}
+
+h3{
+font-family: Unica One, sans-serif;
+color: #A68DAD;
+}
+
+p {
+  font-family: Cormorant Garamond, serif;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: #D5D5D5;
+  margin: 70px auto;
+}
+
+a {
+  color: #502064;
+  font-family: Unica One, sans-serif;
+  margin: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF9F9;
+}
+.subtitle{
+  font-size: 1.5rem;
+}
+.sloth-img{
+  border-radius: 100%;
+  height: 220px;
+  width: 300px;
+  padding: 40px;
+}
+
+.eye-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.ping-pong-img{
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+.top-container{
+  background-color:#BAABDA;
+  padding-top:100px;
+}
+
+.hello{
+  font-family: Shizuru, sans-serif;
+  font-size: 2.1rem;
+}
+
+.middle-container{
+  padding-bottom: 70px;
+}
+.bottom-container{
+  background-color: #8267BE;
+  padding: 30px;
+}
+.ota{
+  text-decoration:underline;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top:300px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+
+.skill-row {
+  width: 25%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.copyright {
+  color: #FFF9F9;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
+.btn {
+  background: #bc89d6;
+  background-image: -webkit-linear-gradient(top, #bc89d6, #8655a3);
+  background-image: -moz-linear-gradient(top, #bc89d6, #8655a3);
+  background-image: -ms-linear-gradient(top, #bc89d6, #8655a3);
+  background-image: -o-linear-gradient(top, #bc89d6, #8655a3);
+  background-image: linear-gradient(to bottom, #bc89d6, #8655a3);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  font-family: Unica One, sans-serif;
+  color: #FFF9F9;
+  font-size: 18px;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ad9bc7;
+  background-image: -webkit-linear-gradient(top, #ad9bc7, #8f6fad);
+  background-image: -moz-linear-gradient(top, #ad9bc7, #8f6fad);
+  background-image: -ms-linear-gradient(top, #ad9bc7, #8f6fad);
+  background-image: -o-linear-gradient(top, #ad9bc7, #8f6fad);
+  background-image: linear-gradient(to bottom, #ad9bc7, #8f6fad);
+  text-decoration: none;
+}
